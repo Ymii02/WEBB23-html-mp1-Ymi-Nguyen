@@ -1,0 +1,59 @@
+h1, h3{
+    color: palevioletred;
+    font-family: cursive;
+}
+
+
+@media screen and (min-width:300px) {
+    img{
+     width: 70%;  
+     display: flex; 
+     align-items: center;
+    
+    }
+
+    #inspiration{
+        display: flex; 
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #jag{
+        display: flex; 
+        align-items: center;
+        flex-direction: column;
+    }
+    q{
+font-size: 15px;
+} 
+nav{
+display: flex;
+justify-content:end;
+background-color: rgb(231, 153, 179);
+}
+body {
+    background-color: beige;
+    margin-top: 5px;
+}
+a{
+    color: black;
+    margin: 10px;
+}
+
+}
+
+@media screen and (min-width:600px) { 
+    body{
+    margin-top: 100px;
+}
+ 
+    a:hover{ 
+        background-color: antiquewhite;
+    }
+    
+
+    a{
+        margin: 20px;
+    }
+} 
+    
